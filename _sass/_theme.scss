@@ -58,7 +58,7 @@ body {
     @include align-items(center);
     text-align: center;
   }
-  @include breakpoint(break-1) {
+  @include breakpoint(break-2) {
     .container {
       @include justify-content(space-between);
       text-align: inherit;
@@ -75,7 +75,7 @@ body {
 
 .nav-desktop {
   display: none;
-  @include breakpoint(break-1) {
+  @include breakpoint(break-2) {
     display: block;
   }
 }
@@ -84,7 +84,7 @@ body {
   display: block;
   text-align: center;
   padding-top: 0.8rem;
-  @include breakpoint(break-1) {
+  @include breakpoint(break-2) {
     display: none;
   }
 }
@@ -95,7 +95,7 @@ body {
   gap: 0.6rem;
   text-decoration: none;
   img {
-    height: 4rem;
+    height: 3rem;
     width: auto;
     image-rendering: pixelated;
   }
@@ -106,7 +106,16 @@ body {
     font-size: 2.46rem;
     color: var(--text-secondary);
     line-height: 1;
-    padding-left: 0.6rem;
+  }
+  @include breakpoint(break-2) {
+    position: relative;
+    img {
+      position: absolute;
+      right: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-right: 1rem;
+    }
   }
 }
 
