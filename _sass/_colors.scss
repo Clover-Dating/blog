@@ -1,0 +1,37 @@
+// Clover Colors
+// Using CSS custom properties for dark mode support
+
+:root {
+  --bg: #F5F0EB;
+  --surface: #FFFFFF;
+  --text: #1A1A1A;
+  --text-secondary: #524D48;
+  --border: #D1CBC4;
+  --primary: #62a94c;
+  --primary-hover: #4e8a3d;
+  --code-bg: #E8E2DC;
+  --caption: #7A756F;
+}
+
+[data-theme="dark"] {
+  --bg: #1A1612;
+  --surface: #26221E;
+  --text: #F5F0EB;
+  --text-secondary: #CDC8C2;
+  --border: #3D3530;
+  --primary: #62a94c;
+  --primary-hover: #4e8a3d;
+  --code-bg: #2D2824;
+  --caption: #8A857F;
+}
+
+// SCSS variables mapped to CSS custom properties for compatibility
+$backgroundColour: var(--bg);
+$bodyColour: var(--text-secondary);
+$headingColour: var(--text);
+$linkColour: var(--primary);
+$hoverColour: var(--primary-hover);
+$captionColour: var(--caption);
+$white: #fff;
+$codeBackgroundColour: var(--code-bg);
+$borderColour: var(--border);

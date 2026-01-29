@@ -1,0 +1,66 @@
+// Modular scale
+// ---------------------------------------
+
+// Setting responsive modular-scales. Use appropriate scales for viewport sizes.
+$modular-scale: (
+  // Major Third
+  scale-0: (
+    alpha:   28.0,
+    beta:    21.0,
+    gamma:   19.0,
+    delta:   17.0,
+    epsilon: 14.0,
+    zeta:    12.0,
+    eta:     11.0,
+    theta:   10.8,
+    iota:    9.6
+  ),
+  // Major Third
+  scale-1: (
+    alpha:   28.0,
+    beta:    23.0,
+    gamma:   20.5,
+    delta:   18.2,
+    epsilon: 15.0,
+    zeta:    13.0,
+    eta:     11.8,
+    theta:   11.5,
+    iota:    10.2
+  ),
+  // Major Third
+  scale-2: (
+    alpha:   28.0,
+    beta:    24.5,
+    gamma:   22.0,
+    delta:   19.5,
+    epsilon: 16.0,
+    zeta:    14.0,
+    eta:     12.5,
+    theta:   12.3,
+    iota:    11.0
+  ),
+  // Perfect Fourth
+  scale-3: (
+    alpha:   28.0,
+    beta:    30.0,
+    gamma:   26.0,
+    delta:   23.0,
+    epsilon: 18.0,
+    zeta:    15.5,
+    eta:     13.5,
+    theta:   12.8,
+    iota:    10.8
+  ),
+  // Aug. Fourth
+  scale-4: (
+    alpha:   28.0,
+    beta:    37.0,
+    gamma:   30.0,
+    delta:   26.5,
+    epsilon: 20.0,
+    zeta:    17.0,
+    eta:     14.0,
+    theta:   13.4,
+    iota:    10.8
+  )
+);

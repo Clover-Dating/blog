@@ -1,0 +1,56 @@
+# Site configuration
+
+# Files excluded from Jekyll builds
+exclude:
+- README.md
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+
+# Plugins
+plugins:
+- jekyll-paginate
+
+# Pagination
+paginate: 10
+paginate_path: page:num
+
+# Jekyll settings
+sass:
+  style: compressed
+permalink: pretty
+excerpt_separator: <!-- more -->
+timezone: America/Los_Angeles
+
+# Collections
+collections:
+  posts:
+    title: Blog
+    output: true
+    description: "Updates and thoughts from the Clover team."
+
+# Default layouts
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Site settings
+encoding: utf-8
+title: "Clover"
+logo: "/assets/logomark.png"
+favicon: "/assets/favicon.png"
+description: "Updates from the Clover Dating team"
+url: "https://blog.clover.dating"
+baseurl: ""
+lang: en-US
