@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Jersey+10&display=swap" rel="stylesheet">
 
-		<link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+		<link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
 
 		{% if site.favicon %}
 			<link rel="icon" type="image/png" sizes="32x32" href="{{ site.favicon }}">
@@ -37,8 +37,8 @@
 	<body>
 
 		<button class="theme-toggle" aria-label="Toggle dark mode">
-			<img class="sun" src="{{ "/assets/sun.png" | relative_url }}" alt="Light mode">
-			<img class="moon" src="{{ "/assets/moon.png" | relative_url }}" alt="Dark mode">
+			<img class="sun" src="{{ '/assets/sun.png' | relative_url }}" alt="Light mode">
+			<img class="moon" src="{{ '/assets/moon.png' | relative_url }}" alt="Dark mode">
 		</button>
 
 		{{ content }}

@@ -2,7 +2,8 @@
 title: About
 ---
 
-Clover is a dating app focused on compatibility, without games or swiping. We're building what the best dating apps used to be—before they sold out.
+Clover is a dating app focused on compatibility, without games or swiping.
+
 
 ## Links
 
@@ -12,4 +13,4 @@ Clover is a dating app focused on compatibility, without games or swiping. We're
 
 ## Contact
 
-[hello@clover.dating](mailto:hello@clover.dating)
+Drop us a line at [hello@clover.dating](mailto:hello@clover.dating).
